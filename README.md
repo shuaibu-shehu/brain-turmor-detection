@@ -12,7 +12,7 @@ The application of deep learning approaches in context to improve health diagnos
 ![mri](https://github.com/user-attachments/assets/c372c4c6-dab2-4835-b1d3-a7b24217cac9)
 
 <h2>MODEL:</h2>
-I AM USING VGG16 FOR TRANSFER LEARNING.
+USING VGG16 FOR TRANSFER LEARNING.
 The model is built on top of VGG16, which is a pre-trained convolutional neural network (CNN) for image classification.
 
 First, the VGG16 model is loaded with input_shape=(IMAGE_SIZE,IMAGE_SIZE,3), include_top=False, weights='imagenet'. The input shape is set to match the size of the images in the dataset, which is 128x128 pixels. The include_top parameter is set to False, which means that the final fully-connected layers of VGG16 that perform the classification will not be included. The weights parameter is set to 'imagenet' which means that the model will be pre-trained with a dataset of 1.4 million images called imagenet
